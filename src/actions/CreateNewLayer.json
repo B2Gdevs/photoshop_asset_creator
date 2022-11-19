@@ -1,0 +1,13 @@
+[
+  {
+    "_obj": "set",
+    "_target": [{ "_property": "background", "_ref": "layer" }],
+    "layerID": 2,
+    "to": {
+      "_obj": "layer",
+      "mode": { "_enum": "blendMode", "_value": "normal" },
+      "name": "New Layer",
+      "opacity": { "_unit": "percentUnit", "_value": 100.0 }
+    }
+  }
+]

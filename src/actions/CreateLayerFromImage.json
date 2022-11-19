@@ -1,0 +1,23 @@
+[
+  {
+    "ID": 5,
+    "_obj": "placeEvent",
+    "freeTransformCenterState": {
+      "_enum": "quadCenterState",
+      "_value": "QCSAverage"
+    },
+    "null": {
+      "_kind": "local",
+      "_path": "C:\\Users\\benja\\OneDrive\\Desktop\\appsmith_ami.PNG"
+    },
+    "offset": {
+      "_obj": "offset",
+      "horizontal": { "_unit": "pixelsUnit", "_value": 0.0 },
+      "vertical": { "_unit": "pixelsUnit", "_value": 0.0 }
+    },
+    "replaceLayer": {
+      "_obj": "placeEvent",
+      "to": { "_id": 5, "_ref": "layer" }
+    }
+  }
+]
