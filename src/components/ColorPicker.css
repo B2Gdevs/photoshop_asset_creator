@@ -1,4 +1,3 @@
-
 .colorPicker .color {
     margin: 16px auto;
     height: 64px;
@@ -6,29 +5,31 @@
     border-radius: 8px;
     position: relative;
     border: 1px solid #252525;
-    outline: 1px solid #8C8C8C;
+    outline: 1px solid #8c8c8c;
     outline-radius: 10px;
 }
 
 .colorPicker .color:after {
     content: ' ';
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     border: 1px solid white;
     border-radius: 8px;
 }
 
 @media (prefers-color-scheme: darkest) {
     .colorPicker .color {
-        outline-color: #6E6E6E;
+        outline-color: #6e6e6e;
     }
 }
 @media (prefers-color-scheme: light), (prefers-color-scheme: lightest) {
     .colorPicker .color {
-        outline-color: #FFFFFF;
+        outline-color: #ffffff;
     }
 }
-
 
 .colorPicker .filledRange {
     position: relative;
@@ -68,17 +69,17 @@
 
 @media (prefers-color-scheme: darkest), (prefers-color-scheme: lightest) {
     .colorPicker sp-slider:focus {
-        outline-color: #2185E6
+        outline-color: #2185e6;
     }
 }
 @media (prefers-color-scheme: dark) {
     .colorPicker sp-slider:focus {
-        outline-color: #3592EB
+        outline-color: #3592eb;
     }
 }
 @media (prefers-color-scheme: light) {
     .colorPicker sp-slider:focus {
-        outline-color: #0679E0
+        outline-color: #0679e0;
     }
 }
 
@@ -88,16 +89,16 @@
     margin-bottom: 28px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    margin-left: 8px; 
+    margin-left: 8px;
     margin-right: 8px;
 }
 
 .colorPicker .gradient.red {
-    background: linear-gradient(to right, #000000, #FF0000);
+    background: linear-gradient(to right, #000000, #ff0000);
 }
 .colorPicker .gradient.green {
-    background: linear-gradient(to right, #000000, #00FF00);
+    background: linear-gradient(to right, #000000, #00ff00);
 }
 .colorPicker .gradient.blue {
-    background: linear-gradient(to right, #000000, #0000FF);
+    background: linear-gradient(to right, #000000, #0000ff);
 }

@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import { ColorPicker } from "../components/ColorPicker.jsx";
+import { ColorPicker } from '../components/ColorPicker.jsx';
 
 export const Demos = () => {
     return (
         <>
             <ColorPicker />
         </>
-    )
-} 
+    );
+};

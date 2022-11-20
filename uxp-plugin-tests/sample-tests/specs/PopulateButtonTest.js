@@ -17,13 +17,15 @@ describe('Click on Populate Layers Button', () => {
         await HomePage.clickOnPopulateLayerButton();
         // Add your validation here
         const result = await browser.execute(() => {
-            const app = require("photoshop").app;
-           	const length = app.activeDocument.layers ? app.activeDocument.layers.length : 0 ;
-            return length
-       });
-   	    const result1 = await browser.execute(() => {
-	   	    return	document.getElementsByTagName("li").length;
-   	    });
-   	    expect(result).toStrictEqual(result1);
+            const app = require('photoshop').app;
+            const length = app.activeDocument.layers
+                ? app.activeDocument.layers.length
+                : 0;
+            return length;
+        });
+        const result1 = await browser.execute(() => {
+            return document.getElementsByTagName('li').length;
+        });
+        expect(result).toStrictEqual(result1);
     });
 });
