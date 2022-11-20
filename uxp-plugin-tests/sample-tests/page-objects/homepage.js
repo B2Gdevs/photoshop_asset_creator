@@ -18,14 +18,16 @@ class HomePage {
     /**
      * define selectors using getter methods
      */
-    get populateLayerButton () { return $('#btnPopulate') }
+    get populateLayerButton() {
+        return $('#btnPopulate');
+    }
 
     /**
      * a method to encapsule automation code to interact with the page
      * e.g. to click on populate layer button
      */
 
-    async clickOnPopulateLayerButton()  {
+    async clickOnPopulateLayerButton() {
         await (await this.populateLayerButton).click();
     }
 }
